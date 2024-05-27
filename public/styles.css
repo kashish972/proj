@@ -1,0 +1,25 @@
+/* General styles for the pay-now container */
+.pay-now-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Style for the Pay Now button */
+#pay-now-button {
+    background-color: #4CAF50; /* Green background color */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 12px 24px; /* Padding around the button */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Cursor change on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover effect for the Pay Now button */
+#pay-now-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
